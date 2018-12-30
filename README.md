@@ -23,4 +23,4 @@ The four classifiers used here are the Descision tree classifier, Support Vector
   Advantages: This algorithm is simple to implement, robust to noisy training data, and effective if training data is large.
   Disadvantages: Need to determine the value of K and the computation cost is high as it needs to computer the distance of each instance to all the training samples.
 
-Source for definitions:https://www.analyticsindiamag.com/7-types-classification-algorithms/
+Definitions borrowed from https://www.analyticsindiamag.com/7-types-classification-algorithms/
