@@ -16,7 +16,7 @@ Y = ['male', 'male', 'female', 'female', 'male', 'male', 'female', 'female',
      'female', 'male', 'male']
 
 
-# CHALLENGE - ...and train them on our data
+# fit trains the classifier on the data(X,Y)
 clf = clf.fit(X,Y)
 clf1 = clf1.fit(X,Y)
 clf2 = clf2.fit(X,Y)
@@ -25,8 +25,8 @@ prediction = clf.predict([[190, 70, 43]])
 prediction1 = clf1.predict([[190, 70, 43]])
 prediction2 = clf2.predict([[190, 70, 43]])
 prediction3 = clf3.predict([[190, 70, 43]])
-# CHALLENGE compare their reusults and print the best one!
 
+#Printing the prediction of each of the classfier
 print(prediction)
 print(prediction1)
 print(prediction2)
