@@ -10,7 +10,7 @@ The three classifiers used here are the Descision tree classifier, Random Forest
   Advantages: Decision Tree is simple to understand and visualise, requires little data preparation, and can handle both numerical and categorical data.
   Disadvantages: Decision tree can create complex trees that do not generalise well, and decision trees can be unstable because small variations in the data might result in a completely different tree being generated.
   
-2)Random Forest Classifier
+2) Random Forest Classifier
   Definition: Random forest classifier is a meta-estimator that fits a number of decision trees on various sub-samples of datasets and uses average to improve the predictive accuracy of the model and controls over-fitting. The sub-sample size is always the same as the original input sample size but the samples are drawn with replacement.
   Advantages: Reduction in over-fitting and random forest classifier is more accurate than decision trees in most cases.
   Disadvantages: Slow real time prediction, difficult to implement, and complex algorithm.
